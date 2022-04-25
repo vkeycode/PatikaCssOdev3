@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  min-height: 70%;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navRight{
+  margin-top: 5px;
+  position: absolute;
+  right: 30px;
+  padding: 5px;
+}
+.navLeft{
+  margin-top: 10px;
+  position: absolute;
+  left: 30px;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin-left: 10px;
+}
+#appButt{
+  position: relative;
+  top:7px;
+  opacity: 0.5;
+}
+#signIn{
+  background: rgb(37, 87, 250);
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px black;
+}
+#signIn:hover{
+  color: black;
+  box-shadow: 2px 2px 2px rgb(13, 13, 34);
+}
+#appButt:hover{
+  transform: rotate(180deg);
+  transition: 0.5s;
+  opacity: 1;
+}
+.navLeft a:hover{
+  color: rgb(77, 185, 199);
+  text-decoration: underline;
+}
+.navRight a:hover{
+  color: rgb(77, 185, 199);
+  text-decoration: underline;
+}
+.searchDiv{
+  width: 700px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+input[type=text]{
+  margin-top: 30px;
+  width: 480px;
+  height: 42px;
+  color: -internal-light-dark(rgb(0, 0, 0), white);
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+  text-indent: 50px;
+  font-size: 17px;
+}
+input[type=text]:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  transform: scale(1.01);
+}
+input[type=text]:focus-within{
+  outline: none;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+#sIcon{
+  position: absolute;
+  top: 135px;
+  left: 120px;
+}
+#voiceIcon{
+  position: absolute;
+  top: 135px;
+  right: 120px;
+}
+.buttons{
+  width: 320px;
+  height: 120px;
+  margin: auto;
+  display: inline-flex;
+  align-items: center;
+}
+.buttons button{
+  height: 36px;
+  width: 150px;
+  margin: auto;
+  border: 1px solid #d6d6d6;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+.buttons button:hover{
+  color: rgb(51, 160, 160);
+  border: 1px solid #949494;
+  cursor: pointer;
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.buttons button:focus{
+  border: 1px solid rgb(58, 203, 247);
+}
+#voiceIcon:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#logo:hover{
+  transform:rotate(5deg);
+  transition: 1s;
+  cursor: pointer;
+}
+footer{
+  background-color: rgb(233, 233, 233);
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-size: smaller;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px 20px 0px 0px;
+}
+.footerLeft{
+  width: 300px;
+  position: absolute;
+  left: 0;
+}
+.footerRight{
+  width: 400px;
+  position: absolute;
+  right: 0;
+}
+footer a:hover{
+  color: rgb(92, 203, 255);
+  text-decoration: underline;
+}
