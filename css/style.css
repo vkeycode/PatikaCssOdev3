@@ -90,11 +90,13 @@ input[type=text]:focus-within{
   position: absolute;
   top: 135px;
   left: 120px;
+  opacity: 0.4;
 }
 #voiceIcon{
   position: absolute;
   top: 135px;
   right: 120px;
+  opacity: 0.6;
 }
 .buttons{
   width: 320px;
@@ -124,6 +126,7 @@ input[type=text]:focus-within{
 #voiceIcon:hover{
   cursor: pointer;
   transform: scale(1.2);
+  opacity: 1;
 }
 #logo:hover{
   transform:rotate(5deg);
